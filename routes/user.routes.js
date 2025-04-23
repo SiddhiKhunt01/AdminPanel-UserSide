@@ -20,9 +20,8 @@ routes.post("/register", Adduser);
 routes.get("/login", showLogin);
 routes.post("/login", loginUser);
 
-routes.get("/add-cart/:id", addToCart);  // Adds product to cart
+routes.get("/add-cart/:id", addToCart);  
 routes.get("/cart", viewCart);    
-// routes.get("/add-cart/:id", addToCart);     
-// routes.get("/add-cart", viewCart);
+
 
 module.exports = routes;
